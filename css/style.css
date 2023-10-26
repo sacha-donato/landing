@@ -1,0 +1,36 @@
+
+
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/cards.css");
+@import url("components/boutonscroll.css");
+
+body {
+  font-family: "CircularStd-Black", "Helvetica", sans-serif;
+  font-size: 18px;
+  margin: 0px;
+  background-color: #FDF9FA;
+}
+h1 {
+    margin-top: -90px;
+    font-size: 80px;
+    color: white !important;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
+@media (max-width: 540px) {
+    h1 {
+        font-size: 56px;
+    }
+}
+}
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: white !important;
+}
